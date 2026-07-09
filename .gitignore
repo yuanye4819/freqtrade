@@ -1,0 +1,51 @@
+# ====== Sensitive / Credentials ======
+config.json
+
+# ====== Python ======
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+freqtrade-env/
+
+# ====== Node / FreqUI ======
+frequi-main/node_modules/
+frequi-main/dist/
+frequi-source/
+
+# ====== IDE ======
+.idea/
+.qodana/
+*.iml
+
+# ====== System ======
+.reasonix/
+reasonix.toml
+Thumbs.db
+
+# ====== Data ======
+user_data/data/
+tradesv3.dryrun.sqlite*
+
+# ====== Freqtrade cache ======
+user_data/backtest_results/
+user_data/hyperopt_results/
+user_data/hyperopts/
+user_data/notebooks/
+user_data/freqUI/
+
+# ====== Backup / Temp ======
+user_data/backup_cn/
+user_data/bt_output_cn.py
+user_data/restore_bt_output_cn.py
+user_data/restore_cn.py
+user_data/mysql_datahandler.json
+analyze.py
+import_to_mysql.py
+
+# ====== Freqtrade system files ======
+*.fthypt
+*.pkl
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

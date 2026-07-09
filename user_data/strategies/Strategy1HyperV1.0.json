@@ -1,0 +1,30 @@
+{
+  "strategy_name": "Strategy1Hyper",
+  "params": {
+    "roi": {
+      "0": 0.005,
+      "30": 0.01,
+      "60": 0.02,
+      "120": 0.03
+    },
+    "stoploss": {
+      "stoploss": -0.04
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.015,
+      "trailing_stop_positive_offset": 0.02,
+      "trailing_only_offset_is_reached": true
+    },
+    "max_open_trades": {
+      "max_open_trades": 3
+    },
+    "buy": {
+      "buy_adx": 31,
+      "buy_bb": 0.17,
+      "buy_rsi": 26
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-07-08 03:43:06.047730+00:00"
+}
